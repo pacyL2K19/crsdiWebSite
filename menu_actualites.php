@@ -4,8 +4,29 @@
     <li class="nav-item">
         <a class="nav-link active" id="tab1" data-toggle="tab" href="#world-tab-1" role="tab" aria-controls="world-tab-1" aria-selected="true">Tout</a>
     </li>
+    <li class="nav-item">
+        <a class="nav-link" id="tab2" data-toggle="tab" href="#world-tab-2" role="tab" aria-controls="world-tab-2" aria-selected="false">Projets</a>
+    </li>
 
     <li class="nav-item">
+        <a class="nav-link" id="tab2" data-toggle="tab" href="#world-tab-2" role="tab" aria-controls="world-tab-2" aria-selected="false">Innovation</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" id="tab3" data-toggle="tab" href="#world-tab-3" role="tab" aria-controls="world-tab-3" aria-selected="false">Entreprenariat</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" id="tab4" data-toggle="tab" href="#world-tab-4" role="tab" aria-controls="world-tab-4" aria-selected="false">Associations</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" id="tab5" data-toggle="tab" href="#world-tab-5" role="tab" aria-controls="world-tab-5" aria-selected="false">Recherche</a>
+    </li>
+<!-- fin  -->
+
+
+<!--     <li class="nav-item">
         <a class="nav-link" id="tab2" data-toggle="tab" href="#world-tab-2" role="tab" aria-controls="world-tab-2" aria-selected="false">Technologies</a>
     </li>
 
@@ -28,5 +49,5 @@
             <a class="nav-link" id="tab7" data-toggle="tab" href="#world-tab-7" role="tab" aria-controls="world-tab-7" aria-selected="false">Politique</a>
             <a class="nav-link" id="tab8" data-toggle="tab" href="#world-tab-8" role="tab" aria-controls="world-tab-8" aria-selected="false">Santé</a>
         </div>
-    </li>
+    </li> -->
 </ul>

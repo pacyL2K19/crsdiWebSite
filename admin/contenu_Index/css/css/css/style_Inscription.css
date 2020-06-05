@@ -1,0 +1,168 @@
+
+/* CONCERNANT CSS_FORUM  */
+.block_forum
+{
+	padding:1px;
+	border-radius:5px;
+	border: 1px solid #760001;
+	margin:10px;
+
+}
+.profil_membre
+{
+	margin:0px;
+	background:#760001;
+	width:310px;
+	padding-left:2px;
+	border-radius:2.5px 2.5px 2.5px 2.5px;
+}
+.profil_membre_photo
+{
+	border-radius:25px;
+	border: 1px solid #760001;
+	height: 60px;
+	width: 60px;
+}
+.date_design
+{
+    color :white;
+    font-size: 1em;
+	/*font-family:'comic sans MS';
+	font-weight: bold;*/
+}
+.profil_membre a
+{
+	color :white;
+	font-size: 1em;
+	font-family:'comic sans MS';
+	font-weight: bold;
+}
+.profil_membre a:hover
+{
+font-style: italic;
+text-decoration:none;
+background:#760001;	
+font-weight: bold;
+}
+.forum_contenu
+{
+	font-size: 0.9em;
+	/*font-family:impact;*/
+	color:black;
+}
+/* ca concerne le commentaire ,repondre ,aimer  */
+.forum_partie_basse
+{
+font-family:Times New Roman;
+background:#760001;
+font-size: 0.8em;
+border: 1px solid #760001;
+font-weight: bold;	
+color:white;
+padding: 2px;
+
+}
+.forum_partie_basse:hover
+{
+background:#760001;
+border-radius: 5px 5px 5px 5px;	
+color:#760001;
+background:white;
+font-weight: bold;
+font-size: 0.8em;
+text-decoration:none;
+}
+.position_formulaire_commentaire
+{
+	position:fixed;
+	top:15%;
+	text-align:center;
+}
+.position_formulaire_commentaire h2,.formulaire_commentaire_ici h2
+{
+ font-size: 1.5em;
+ text-shadow: 1px 2px 2px #760001;
+ color:#760001;
+}
+/* ceci concerne seulement la page commenter_ici_repondre_ici.php  */
+.formulaire_commentaire_ici
+{
+  text-align:center;
+}
+
+/* CONCERNANT CSS_INSCRIPTION  */
+.center_block
+{
+	text-align:center;
+	border-radius:5px;
+}
+.center_block p
+{
+font-size: 1em;
+color:black;	
+}
+.center_block h1
+{
+	font-size: 2em;
+	font-weight: bold;
+	color:white;
+	background:#760001;
+	border: 1px solid #760001;
+	padding:2px;	
+}
+.center_block h2
+{
+ font-size: 1.5em;
+ text-shadow: 1px 2px 2px #760001;
+ color:#760001;
+}
+.center_block label
+{
+text-align:left;
+font-weight: bold;		
+}
+.monCouleur_boutton,.back /* CONCERNANT CSS_INSCRIPTION ET MENU PRINCPAL  */
+{
+font-family:Times New Roman;
+background:#760001;
+border: 1px solid #760001;
+font-weight: bold;	
+}
+.monCouleur_boutton:hover
+{
+background:#760001;
+border: 1px solid white;
+border-radius: 0px 0px 0px 0px;	
+color:#760001;
+background:white;
+font-weight: bold;
+}
+/* CONCERNANT CSS_LEFT  */
+aside h1
+{
+font-family:impact;
+font-weight: bold;	
+color:#760001;	
+}
+aside h2
+{
+font-size: 1.5em;
+margin-left:2px;
+font-weight: bold;	
+color:#760001;	
+}
+aside a
+{
+font-size: 1em;
+color:black;
+font-weight: bold;
+padding:2px;
+}
+aside a:hover
+{
+border-radius: 0px 0px 5px 5px;	
+background:#760001;
+color:black;
+ text-decoration:none;
+ color:white;
+}
