@@ -1,0 +1,112 @@
+.body_index{
+ background: url('../images/Arriere_plan.jpg');
+ background-attachment: no-repeat;
+ background-attachment: fixed; /* Le fond restera fixe */
+ 
+}
+.div_connexion{
+  margin-top:12%;
+  font-family:hold;
+
+  
+}
+.div_connexion h1{
+
+  /* font-family:Dyrom; 
+  text-align:center; */
+  font-size:2.5em; 
+  font-family:hold;
+  color:#d83b01; /* <<< coleur orange */
+}
+.bout_connexion{
+  color:black;
+  padding:2px;
+  font-family:hold;
+   font-weight: bold;
+  border: 1px #d83b01 solid;
+  margin-top:2px;
+  text-align:right; 
+}
+.bout_connexion:hover{
+  padding:2px;
+  background: #d83b01;
+  color:white;
+  font-family:hold;
+  border: 1px #d83b01 solid; 
+}
+/* ------------------------------------- */
+
+/* MENU PRINCPAL  */
+.div_menu {
+  padding-bottom:0px;
+}
+.titre_haut{
+  text-align: center;
+  background:black;
+  color: #d83b01;
+  box-shadow: 0px 1px 0px white;
+}
+.monCouleur_boutton,.div_menu 
+{
+font-family:Times New Roman;
+background:#d83b01;
+border: 0px solid #d83b01;
+font-weight: bold;
+margin-left:10px;
+margin-top:0px;
+}
+
+.monCouleur_boutton:hover,.monCouleur_boutton:active, .monCouleur_boutton:focus{
+background:white;
+color:#d83b01;
+border: 0px solid white;
+box-shadow: 0px 10px 0px white;
+border-radius: 0px 0px 0px 0px;	
+background:white;
+font-weight: bold;
+
+}
+.sous_menu a{
+  color:black;
+}
+
+.sous_menu_inscription a:focus{
+  color:black;
+  font-weight: bold;
+}
+
+/* partie concernant environnement_travail */
+#environnement_travail{
+  box-shadow:3px 3px 3px black;
+   padding:5px;
+   margin-bottom:5px; 
+}
+#environnement_travail h2{
+  font-family:Times New Roman;
+  font-size:1.5em; 
+  font-family:hold;
+  margin-bottom: 5px;
+}
+
+/*  concerne le resultat de la recherche a la google
+Il s agit de mettre en les predictions du a la requete de recherche 
+---------------------------------------------------------------------*/
+.div_global{
+  box-shadow:0px 1px 0px #d83b01;
+
+}
+.div_global input, .div_global input:hover, .div_global input:active{
+  border:0px;
+  background: white;
+  color:black;
+  font-size:0.8em;
+  font-family:hold;
+  padding-bottom:2px;
+  margin-top:2px;
+}
+.div_global input:hover, .div_global input:active{
+  font-weight:italic;
+}
+/* ----------------------------------------------------------------*/
+
+

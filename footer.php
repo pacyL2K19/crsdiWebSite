@@ -26,15 +26,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                             <li><a href="index.php">Home</a></li>
                             <li><a href="index.php#myTab">Actualités</a></li>
                             <li><a href="#">La Recherche</a></li>
-                            <li><a href="innovations.php">Innovations</a></li>
-                            <li><a href="talents.php">Talents</a></li>
-                            <li><a href="philosophy.php">Organigramme</a></li>
-				          <li><a href="cellule.php">Cellules</a></li>
-				          <li><a href="partenaires.php">Nos partenaires</a></li>
-				          <li><a href="ressources.php">Ressources</a></li>
-				          <li><a href="scholarship.php">Bourses d'étude</a></li>
-				          <li><a href="elibrary.php">E-Library</a></li>
-				          <li><a href="http://youtube.com/2edYgdf">Video</a></li>
+                            <li><a href="traitements.php">Innovations</a></li> <!-- innovations.php -->
+                            <li><a href="traitements.php">Talents</a></li>  <!-- talents.php -->
+                            <li><a href="#">Organigramme</a></li>
+				          <!-- <li><a href="cellule.php">Cellules</a></li> -->
+				          <li><a href="traitements.php">Nos partenaires</a></li> <!-- partenaires.php -->
+				          <li><a href="traitements.php">Ressources</a></li><!--  ressources.php -->
+				          <li><a href="traitements.php">Bourses d'étude</a></li> <!-- scholarship.php -->
+				          <!-- <li><a href="elibrary.php">E-Library</a></li> -->
+				          <li><a href="http://youtube.com/2edYgdf" target="_blank">Video</a></li>
                         </ul>
                     </div>
                 </div>
@@ -62,6 +62,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
+    <!-- Swiper js -->
+    <!-- <script src="js/swiper.min.js"></script> -->
 
 </body>
 

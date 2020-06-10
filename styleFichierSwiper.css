@@ -1,0 +1,91 @@
+/*body*/
+.divSwip
+{
+	margin: 0;
+	/*margin-top: 40px;*/
+	padding: 0;
+	display: flex;
+	/*min-height: 100vh;  */
+	/*background: #383838;*/
+	/*background: url('cr.jpg') repeat;*/
+	font-family: 'Popppins', sans-serif;
+	 /*box-shadow: 1px 2px 5px black;*/
+}
+.card3D
+{
+	position: relative;
+	background: #fff;
+	/*background: url('cr.jpg') repeat;*/
+	 width: 400px;
+	 height: 400px;
+	 margin: 5px;
+	 box-shadow: 2px 5px 10px black;
+	 border-radius: 5px 5px 5px 5px;
+}
+.card3D .content 
+{
+	width: 400px;
+	/*widows:400px;*/
+	 /*padding: 30px;*/
+	 padding: 30px;
+
+	 box-sizing: border-box;
+}
+.card3D .content a
+{
+	display: inline-block;
+	margin: 10px 0 0;
+	padding: 10px 20px;
+	text-decoration: none;
+	border: 2px solid #262626;
+	color: #262626;
+
+
+}
+.card3D .sliderText 
+{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	background: #000;
+}
+.card3D .sliderText h3
+{
+	color:#fff;
+	font-size: 3rem;
+}
+.swiper-slide
+{
+	width:400px;
+}
+/*.swiper-slide:nth-child(1) .sliderText
+{
+	background: #2196f3;
+}
+.swiper-slide:nth-child(2) .sliderText
+{
+	background: #e91e63;
+}
+
+.swiper-slide:nth-child(3) .sliderText
+{
+	background: #c3d41a;
+}
+
+.swiper-slide:nth-child(4) .sliderText
+{
+	background: #ff9800;
+}
+
+.swiper-slide:nth-child(5) .sliderText
+{
+	background: #c33ada;
+}
+.swiper-slide:nth-child(6) .sliderText
+{
+	background: #c3d41a;
+}*/
+

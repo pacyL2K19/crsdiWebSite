@@ -17,6 +17,13 @@
     <!-- Style CSS -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- Style CSS -->
+     <link rel="stylesheet" href="styleProgressBar.css">
+     
+     <!-- Style CSS Swipe (>>> laboratoire en image) -->
+     <!-- <link rel="stylesheet" href="styleFichierSwiper.css"> -->
+    <!-- <link rel="stylesheet" href="swiper.min.css"> -->
+
 </head>
 
 <body>
@@ -35,7 +42,7 @@
                 <div class="col-12">
                     <nav class="navbar navbar-expand-lg">
                         <!-- Logo -->
-                        <a class="navbar-brand" href="index.php"><img src="img/core-img/logo.png" alt="Logo"></a>
+                        <a class="navbar-brand" href="index.php"><img src="img/core-img/logo.png" alt="Logo" style="margin-top: 55px;"></a>
                         <!-- Navbar Toggler -->
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#worldNav" aria-controls="worldNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                         <!-- Navbar -->
@@ -45,29 +52,47 @@
                                     <a class="nav-link" href="index.php">Accueil <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="activities.php">Activités</a>
-                                        <a class="dropdown-item" href="philosophy.php">Phylosophie</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cellules</a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="cellule.php">Technologies</a>
-                                        <a class="dropdown-item" href="cellule.php">Sciences humaines &amp; sciences de la vie</a>
-                                        <a class="dropdown-item" href="cellule.php">Sciences Exactes &amp; Expérimentales</a>
-                                    </div>
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Asoociation</a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<!-- <a class="dropdown-item" href="associations_Activites.php"> Activités</a>
+<a class="dropdown-item" href="associations_ConseilAdmin.php">CA (Conseil d'amnistration)</a>
+<a class="dropdown-item" href="associations_Adherer.php">Adherer</a>
+<a class="dropdown-item" href="associations_Historique.php">Chronologie</a> -->
+
+<a class="dropdown-item" href="#"> Activités</a>
+<a class="dropdown-item" href="#">CA (Conseil d'amnistration)</a>
+<a class="dropdown-item" href="#">Adherer</a>
+<a class="dropdown-item" href="#">Chronologie</a>
+                                        </div>
                                 </li>
                                 <li class="nav-item">
+                                    <a class="nav-link" href="#">Recherche</a>
+                                </li>
+                                
+                                
+                                <!-- <li class="nav-item">
                                     <a class="nav-link" href="contact.php">Contacts</a>
+                                </li> -->
+                                <li class="nav-item">
+                                    <a class="nav-link" href="realisationsAllDepartements.php">Nos réalisations</a>
+                                </li>
+                                 <!-- <li class="nav-item">
+                                    <a class="nav-link" href="realisationsAllDepartements.php">PAE</a>
+                                </li> -->
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PAE</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="pae.php?numeroMenu=1">Presentation</a>
+                                        <a class="dropdown-item" href="pae.php?numeroMenu=2">le PAE et le CRSDI</a>
+                                        <a class="dropdown-item" href="pae.php?numeroMenu=3">Activites</a>
+                                    </div>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Nous soutenir</a>
                                 </li>
-                                <li class="nav-item">
+                                <!-- <li class="nav-item">
                                     <a class="nav-link" href="#">Forum</a>
-                                </li>
+                                </li> -->
                             </ul>
                             <!-- Search Form  -->
                             <div id="search-wrapper">

@@ -1,0 +1,91 @@
+
+/* CONCERNANT CSS_FORUM  */
+.page
+{
+	color:black;
+	background:blue;
+	padding:0px;
+	text-align:center;
+	border-radius:5px;
+}
+.block_forum p
+{
+
+	margin:0px;
+}
+.profil_forum
+{
+	margin:0px;
+	color:red;
+}
+/* CONCERNANT CSS_INSCRIPTION  */
+.center_block
+{
+	text-align:center;
+	border-radius:5px;
+}
+.center_block p
+{
+font-size: 1em;
+color:black;	
+}
+.center_block h1
+{
+	font-size: 2em;
+	font-weight: bold;
+	color:white;
+	background:#760001;
+	border: 1px solid #760001;
+	padding:2px;	
+}
+.center_block h2
+{
+ font-size: 1.5em;
+ text-shadow: 1px 2px 2px #760001;
+ color:#760001;
+}
+.monCouleur_boutton,.back /* CONCERNANT CSS_INSCRIPTION ET MENU PRINCPAL  */
+{
+font-family:Times New Roman;
+background:#760001;
+border: 1px solid #760001;
+font-weight: bold;	
+}
+.monCouleur_boutton:hover
+{
+background:#760001;
+border: 1px solid white;
+border-radius: 0px 0px 0px 0px;	
+color:#760001;
+background:white;
+font-weight: bold;
+}
+/* CONCERNANT CSS_LEFT  */
+aside h1
+{
+font-family:impact;
+font-weight: bold;	
+color:#760001;	
+}
+aside h2
+{
+font-size: 1.5em;
+margin-left:2px;
+font-weight: bold;	
+color:#760001;	
+}
+aside a
+{
+font-size: 1em;
+color:black;
+font-weight: bold;
+padding:2px;
+}
+aside a:hover
+{
+border-radius: 0px 0px 5px 5px;	
+background:#760001;
+color:black;
+ text-decoration:none;
+ color:white;
+}

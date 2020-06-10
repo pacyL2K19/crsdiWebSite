@@ -1269,3 +1269,27 @@ textarea:focus ~ .highlight {
         color: #959595; }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/*APARTIR D'ICI LA SUITE EST AJOUTE PAR MUHESI VYAHAVWA Moise
+================================================================*/
+.SideWidget_Area{
+    padding-bottom:5px;
+
+}
+.SideWidget_Area h5{
+    margin-bottom:5px;
+}
+.SideWidget_Area img{
+    margin:5px;
+}
+.SideWidget_Area h6{
+    margin-right:5px;
+    display: inline;
+}
+.SideWidget_Area p{
+    text-align: justify;
+}
+.SideWidget_Area span{
+opacity:0.9
+ }

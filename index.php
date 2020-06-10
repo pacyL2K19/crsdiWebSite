@@ -23,25 +23,43 @@
                         ========================= DEBUT SECTION 'A'==============================-->
                         <div class="row">
                             <div class="col-12 col-lg-8">
-
-                                <div> <!-- C'EST QUOI CRSDI -->
-                                    <?php include('admin/contenu_Index/apropos_crsdi.php');?>
+                                    <!-- NOUVELLES CRSDI  -->
+                            <div style="background: url('img.jpg') no-repeat fixed;">    
+                                 <div class="wow fadeInUpBig" data-wow-delay="0.1s"> 
+                                    <?php include('A_Tp_carousel/coura.php');?>
                                 </div>
+                                <!-- <div> C'EST QUOI CRSDI -->
+                                    <?php include('admin/contenu_Index/apropos_crsdi.php');?>
+                                <!-- </div> -->
+                            </div>
 
                                 <div> <!-- LES 3 ICONS CONSTITUENT LES LIENS-->
-                                     <?php include('admin/contenu_Index/3icons_lien.php');?>
+                                    <div class="sidebar-widget-area" id="aboutus">  
+                                        <div class="sidebar-widget-area"  style="margin:5px;">
+                                            <h5 class="title">Axes d'interventions</h5> 
+                                         <?php include('admin/contenu_Index/3icons_lien.php');?>
+                                        </div>
+                                    </div>
                                 </div>
 
-                                <div> <!-- LE MEUNU ACTUALITE -->
+
+                                <div style="margin-top: 10px"> <!-- LE MEUNU ACTUALITE -->
                                    <?php include('menu_actualites.php');?>
                                 </div>    
                                     
                                 <div class="tab-content" id="myTabContent">  <!-- AFFICHAGE DES ARTICLES D'UNE CELLULE SELECTIONNE -->                               
-                                    <?php // include('admin/contenu_Index/afficher_cellules.php');?>
+                                    <?php
+                                     $projet_max_afficher=3;   // cette varible est utilise dans le modules suivant!!!!:
+                                        require('admin/troisIncons/paginer_projet.php');
+                                        require('admin/projets/getProjetRecents.php');
+                                        // include("admin/contenu_Index/test.php");
+                                        //include('admin/contenu_Index/afficher_cellules.php');
+                                     ?>
+
                                 </div>
                          
                                 <div class="world-catagory-area mt-50"> <!-- LE MEUNU PROJETS EN COURS -->
-                                    <?php  include('menu_projets_en_cours.php');?>
+                                    <?php  //include('menu_projets_en_cours.php');?>
                                 </div>
                             </div>
                
@@ -52,7 +70,7 @@
                                         <?php include('admin/contenu_Index/image_du_jour.php');?>
                                     </div>    
                                     <div> <!-- C'EST QUOI CRSDI -->
-                                        <?php include('admin/contenu_Index/apropos_crsdi.php');?>
+                                        <?php // include('admin/contenu_Index/apropos_crsdi.php');?>
                                     </div>  
                                     <div>
                                         <?php include('admin/contenu_Index/suivez_nous.php');?>
@@ -68,32 +86,9 @@
                         <div class="title">
                             <h5>Laboratoires en image</h5>
                         </div>
-
-                        <?php
-                            $i = 2;
-                            $laboImg = getLaboImg();
-                            foreach ($laboImg as $item) {
-                            ?>
-
-                        <!-- Single Blog Post -->
-                        <div class="single-blog-post post-style-4 d-flex align-items-center wow fadeInUpBig" data-wow-delay="0.<?=$i; ?>s">
-                            <!-- Post Thumbnail -->
-                            <div class="post-thumbnail">
-                                <img src="admin/img/laboimg/<?= $item['image']; ?>" alt="">
-                            </div>
-                            <!-- Post Content -->
-                            <div class="post-content">
-                                <a href="#" class="headline">
-                                    <h5><?= $item['title']; ?></h5>
-                                </a>
-                                <p><?= htmlspecialchars_decode ($item['description']); ?></p>
-
-                            </div>
+                        <div class="wow fadeInUpBig" data-wow-delay="0.5s">
+                            <?php include('admin/swip/swiperImgLabo.org.php');?>
                         </div>
-                    <?php 
-                            $i++;
-                            }
-                        ?>
                     </div>
 
                     <div class="col-12 col-lg-4">
